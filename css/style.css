@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+    width: 100%;
+
+    background: linear-gradient(to left bottom, #090909, #0a0a0a, #0b0b0b, #0c0c0c, #0d0d0d);
+}
+
+h1 {
+    text-align: center;
+    margin-block: 60px;
+
+    color: #d8d8d8;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+    padding-inline: 80px;
+}
+
+.produtos .produto {
+    padding: 30px;
+    border-radius: 20px;
+    
+    box-shadow:  20px 20px 60px #080808,
+                -20px -20px 60px #111111;
+
+    background: linear-gradient(to left bottom, #0e0e0e, #0a0a0a, #0b0b0b, #101010, #141414);
+    border: 2px solid #181818;
+}
+
+.produtos .produto img {
+    width: 100%;
+}
+
+.produtos .produto h2 {
+    color: #d8d8d8;
+    font-size: 30px;
+    margin-bottom: 4px;
+}
+
+.produtos .produto p {
+    color: #5e5e5e;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.produtos .produto span {
+    color: #d8d8d8;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.produtos .produto a button {
+    padding: 5px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+    box-shadow:  10px 10px 20px #080808,
+             -10px -10px 20px #0a0a0a;
+             
+    background: linear-gradient(to right, #d8d8d8, #757575 100%);
+
+    transition: all 200ms ease-in-out;
+}
+
+.produtos .produto a button:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+}

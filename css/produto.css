@@ -1,0 +1,66 @@
+
+
+.produto-aberto {
+    margin-inline: 80px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+
+    padding: 2rem;
+    border-radius: 1rem;
+    
+    box-shadow:  20px 20px 60px #080808,
+             -20px -20px 60px #111111;
+
+    background: linear-gradient(to left bottom, #0e0e0e, #0a0a0a, #0b0b0b, #101010, #141414);
+    
+    border: 2px solid #181818;
+}
+
+.produto-aberto img {
+    width: 100%;
+}
+
+.produto-aberto h2 {
+    font-size: 40px;
+    color: #d8d8d8;
+    margin-bottom: 8px;
+}
+
+.produto-aberto p {
+    color: #5e5e5e;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.produto-aberto a button {
+    padding: 5px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+    box-shadow:  10px 10px 20px #080808,
+             -10px -10px 20px #0a0a0a;
+             
+    background: linear-gradient(to right, #d8d8d8, #757575 100%);
+
+    transition: all 200ms ease-in-out;
+}
+
+.produto-aberto a button:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+
+a.inicio {
+    color: #d8d8d8;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+
+    margin-top: 60px;
+    display: block;
+}
